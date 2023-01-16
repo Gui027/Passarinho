@@ -120,7 +120,7 @@ p {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  border: 2px solid #0898E7;
+  border: 2px solid #FD9CBF;
   padding: 0 25px;
   font-size: 16px;
   height: 55px;
@@ -134,7 +134,7 @@ p {
   -ms-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background-color: #0898E7; }
+  background-color: #FD9CBF; }
   .main-btn:hover {
     background-color: rgba(8, 152, 231, 0.7);
     color: #fff;
@@ -859,7 +859,7 @@ p {
         font-size: 38px; } }
     .header-hero-content .header-title span {
       display: contents;
-      color: #0898E7; }
+      color: #FD9CBF; }
   .header-hero-content .text {
     margin-top: 30px; }
   .header-hero-content ul {
