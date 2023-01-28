@@ -1755,7 +1755,11 @@ p {
 }
 
 .footer-area .logo {
-  max-width: 200px;
+  max-width: 300px;
+  /* background-color: red; */
+  width: 450px;
+  margin-top: -70px;
+  margin-bottom: -30px;
 }
 
 .footer-about {
