@@ -1259,6 +1259,19 @@ p {
   }
 }
 
+.div-star{
+  display: flex;
+  margin-left: -85px;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.stars {
+  display: flex;
+  width: 20px;
+  flex-direction: row;
+}
+
 .single-services .services-icon {
   width: 79px;
   height: 79px;
@@ -1272,6 +1285,10 @@ p {
   font-size: 46px;
   line-height: 79px;
   color: #fff;
+}
+
+.single-services .services-icon img {
+  border-radius: 40px;
 }
 
 .single-services .services-icon::before {
