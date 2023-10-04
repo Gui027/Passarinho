@@ -29,6 +29,12 @@ body {
   overflow-x: hidden;
 }
 
+@media (max-width: 767px) {
+  * {
+    overflow-x: hidden;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
