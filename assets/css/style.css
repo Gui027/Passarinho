@@ -29,11 +29,11 @@ body {
   overflow-x: hidden;
 }
 
-@media (max-width: 767px) {
-  * {
+/* @media (max-width: 767px) {
+  body {
     overflow-x: hidden;
   }
-}
+} */
 
 * {
   margin: 0;
@@ -1265,7 +1265,7 @@ p {
   }
 }
 
-.div-star{
+.div-star {
   display: flex;
   margin-left: -85px;
   margin-top: 15px;
@@ -1777,6 +1777,12 @@ p {
   right: -45px;
 }
 
+/* @media (max-width: 767px) {
+  .footer-area .footer-shape.shape-8 {
+    display: none;
+  }
+} */
+
 .footer-area .logo {
   max-width: 300px;
   /* background-color: red; */
@@ -1936,4 +1942,10 @@ p {
 .back-to-top:hover {
   background-color: rgba(8, 152, 231, 0.5);
   color: #fff;
+}
+
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
 }
